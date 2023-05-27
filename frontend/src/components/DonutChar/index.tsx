@@ -22,12 +22,12 @@ function DonutChart() {
                 const mySeries = data.map(x => x.sum)
 
                 setCharData({ labels: myLabels, series: mySeries })
-                
+
             })
     },
 
         []);
-    
+
 
     const options = {
         legend: {
